@@ -12,7 +12,10 @@ Para visualizar este projeto na sua IDE de preferência, siga estas etapas:
     git clone https://github.com/fabricio-fn/Rick-and-Morty-API.git
     ```
 
-2. **Instale as dependências:** Após clonar o repositório, navegue até a pasta do projeto:
+2. **Baixar o Projeto:** Se você preferir baixar o projeto como um arquivo compactado, clique no link abaixo
+https://github.com/fabricio-fn/Rick-and-Morty-API/archive/refs/heads/main.zip
+
+3. **Instale as dependências:** Após clonar o repositório, navegue até a pasta do projeto:
 
    Em seguida, instale as dependências usando um dos seguintes comandos, dependendo do seu gerenciador de pacotes preferido:
 
@@ -34,7 +37,7 @@ Para visualizar este projeto na sua IDE de preferência, siga estas etapas:
      pnpm install
      ```
 
-3. **Inicie o servidor de desenvolvimento:** Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento com o seguinte comando:
+4. **Inicie o servidor de desenvolvimento:** Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento com o seguinte comando:
 
     ```
     npm run dev
@@ -46,7 +49,7 @@ Para visualizar este projeto na sua IDE de preferência, siga estas etapas:
     bun dev
     ```
 
-4. **Visualize o Projeto:** Abra o seu navegador e acesse [http://localhost:3000](http://localhost:3000) para ver o resultado.
+5. **Visualize o Projeto:** Abra o seu navegador e acesse [http://localhost:3000](http://localhost:3000) para ver o resultado.
 
 ## Tecnologias Utilizadas
 
