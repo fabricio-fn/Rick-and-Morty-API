@@ -2,6 +2,8 @@
 
 Este é um projeto Next.js inicializado com o `create-next-app`, utilizando TypeScript e Chakra UI para estilização.
 
+- [Veja como ficou o projeto](https://rick-and-morty-api-brown.vercel.app/)
+
 ## Como Baixar o Projeto
 
 Para visualizar este projeto na sua IDE de preferência, siga estas etapas:
@@ -55,6 +57,8 @@ https://github.com/fabricio-fn/Rick-and-Morty-API/archive/refs/heads/main.zip
 
 Este projeto utiliza as seguintes tecnologias:
 
-- [Next.js](https://nextjs.org/): Um framework React para construção de aplicativos web modernos.
-- [TypeScript](https://www.typescriptlang.org/): Uma linguagem de programação tipada que ajuda a evitar erros comuns em tempo de execução.
-- [Chakra UI](https://chakra-ui.com/): Uma biblioteca de componentes de interface do usuário para React, com foco na facilidade de uso e personalização.
+- [Documentação do Next.js](https://nextjs.org/learn) - Um tutorial interativo para começar com o Next.js.
+- [Documentação do TypeScript](https://www.typescriptlang.org/docs) - Explore a documentação oficial do TypeScript.
+- [Documentação do Chakra UI](https://chakra-ui.com/docs/getting-started) - Saiba como estilizar seus aplicativos com o Chakra UI.
+- [Documentação do Axios](https://axios-http.com/docs/intro) - Saiba como usar o Axios para fazer requisições HTTP.
+- [Documentação do React Query](https://react-query.tanstack.com/guides/query-keys) - Aprenda a gerenciar estado e dados com o React Query.
