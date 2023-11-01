@@ -1,26 +1,26 @@
 'use client'
 
-import { Avatar, Badge, Box, Text, Card, CardHeader, CardFooter, Flex, Heading, SimpleGrid } from "@chakra-ui/react"
-import Link from "next/link"
-import SkeletonCard from "../Skeleton/SkeletonCard"
-import { useCharacters } from "@/api/Hooks/useCharacters"
-import { useState } from "react"
-import Image from "next/image"
-import { PaginationButtons } from "../PaginationButtons/PaginationButtons"
+import { Avatar, Badge, Box, Text, Card, CardHeader, CardFooter, Flex, Heading, SimpleGrid } from '@chakra-ui/react'
+import Link from 'next/link'
+import SkeletonCard from '../Skeleton/SkeletonCard'
+import { useCharacters } from '@/api/Hooks/useCharacters'
+import { useState } from 'react'
+import Image from 'next/image'
+import { PaginationButtons } from '../PaginationButtons/PaginationButtons'
 
 export interface iCharacters {
-  id: number;
-  name: string;
-  image: string;
-  species: string;
-  status: string;
-  gender: string;
-  origin: { name: string; }
+  id: number
+  name: string
+  image: string
+  species: string
+  status: string
+  gender: string
+  origin: { name: string }
 }
 
 export default function Cards() {
-  const [page, setPage] = useState(1);
-  const { data, isLoading, isError } = useCharacters(page);
+  const [page, setPage] = useState(1)
+  const { data, isLoading, isError } = useCharacters(page)
 
   if (isLoading) {
     return (
@@ -38,7 +38,7 @@ export default function Cards() {
 
   const characters = data.results
 
-  const hasNextPage = data.info.next !== null;
+  const hasNextPage = data.info.next !== null
 
   const handlePageChange = (page: number) => {
     setPage(page)

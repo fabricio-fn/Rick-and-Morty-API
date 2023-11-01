@@ -1,4 +1,4 @@
-import { Box, SkeletonText } from "@chakra-ui/react";
+import { Box, SkeletonText } from '@chakra-ui/react'
 
 export default function SkeletonCharacter() {
   return (

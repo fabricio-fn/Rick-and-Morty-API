@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import React from 'react'
 import { QueryClient, QueryClientProvider } from 'react-query'
@@ -8,7 +8,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 const queryClient = new QueryClient()
 
 interface iProviders {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 export default function Providers({ children }: iProviders) {

@@ -1,10 +1,9 @@
 'use client'
 
-import { useGetCharacterById } from "@/api/Hooks/useGetCharacterById"
-import { iCharacters } from "@/components/Cards/Cards"
-import SkeletonCharacter from "@/components/Skeleton/SkeletonCharacter"
-import { Flex, Card, Box, Badge, Text, Image, Heading, SimpleGrid } from "@chakra-ui/react"
-import Link from "next/link"
+import { useGetCharacterById } from '@/api/Hooks/useGetCharacterById'
+import { iCharacters } from '@/components/Cards/Cards'
+import SkeletonCharacter from '@/components/Skeleton/SkeletonCharacter'
+import { Flex, Card, Box, Badge, Text, Image, Heading, SimpleGrid } from '@chakra-ui/react'
 
 export default function CharacterId({ params }: { params: { id: number } }) {
   const { id } = params
